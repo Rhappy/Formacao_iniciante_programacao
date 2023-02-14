@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projeto - Iniciante em Programação</title>
+    
+
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header class="page_header">
+        <nav class="page_header__menu">
+            <a class="page_header__menu_access" href="index.html">Home</a>
+            <a class="page_header__menu_access" href="about.html">Sobre mim</a>
+            <a class="page_header__menu_access" href="sevendays.html">7DaysOfCode</a>
+            <a class="page_header__hidden" href="./hidden.html"> Shh ... </a>
+        </nav>
+    </header>
+        
+    <main class="content">
+        <section class="content_7daysofcode">
+            <h1 class="content__title"> 
+                7 DAYS OF CODE
+            </h1>
+            <p class="content__text__small">
+                O 7 Days of Code consiste em um projeto executado ao longo de 7 dias após a finalização de todos os cursos da formação, com o objetivo de fixar o conteúdo e tentar alguns códigos novos. O foco do 7 Days of Code é <strong class="content__highlight">javaScript</strong>, com os códigos inseridos nessa página a fim de documentar a jornada. 
+            </p>
+
+            <div>
+                <div class="content_days">Day 1. Operações Booleanas</div>
+                <p class="content__code">
+                    <strong class="content__code__strong">let</strong> numeroUm = 1<br>
+                    <strong class="content__code__strong">let</strong> stringUm = '1'<br>
+                    <strong class="content__code__strong">let</strong> numeroTrinta = 30<br>
+                    <strong class="content__code__strong">let</strong> stringTrinta = '30'<br>
+                    <strong class="content__code__strong">let</strong> numeroDez = 10<br>
+                    <strong class="content__code__strong">let</strong> stringDez = '10'<br>
+                    <br>
+                    <strong class="content__code__strong">if</strong> (numeroUm == stringUm) {<br>
+                    <strong class="content__code__strong">console.log</strong>('As variáveis numeroUm e stringUm tem o mesmo valor, mas tipos diferentes')<br>
+                    } <strong class="content__code__strong">else</strong> {<br>
+                    <strong class="content__code__strong">console.log</strong>('As variáveis numeroUm e stringUm não tem o mesmo valor')<br>
+                    }<br>
+                    <strong class="content_code_comment">// console.log: As variáveis numeroUm e stringUm tem o mesmo valor, mas tipos diferentes</strong><br>
+                    <br>
+                    <strong class="content__code__strong">if</strong> (numeroTrinta === stringTrinta) {<br>
+                    <strong class="content__code__strong">console.log</strong>console.log('As variáveis numeroTrinta e stringTrinta tem o mesmo valor e mesmo tipo')<br>
+                    } <strong class="content__code__strong">else</strong> {<br>
+                    <strong class="content__code__strong">console.log</strong>('As variáveis numeroTrinta e stringTrinta não tem o mesmo tipo')<br>
+                    }<br>
+                    <strong class="content_code_comment">// console.log: As variáveis numeroTrinta e stringTrinta não tem o mesmo tipo</strong><br>
+                    <br>
+                    <strong class="content__code__strong">if</strong> (numeroDez == stringDez) {<br>
+                    <strong class="content__code__strong">console.log</strong>('As variáveis numeroDez e stringDez tem o mesmo valor, mas tipos diferentes')<br>
+                    } <strong class="content__code__strong">else</strong> {<br>
+                    <strong class="content__code__strong">console.log</strong>('As variáveis numeroDez e stringDez não tem o mesmo valor')<br>
+                    }<br>
+                    <strong class="content_code_comment">//console.log: As variáveis numeroDez e stringDez tem o mesmo valor, mas tipos diferentes</strong>
+                </p>
+                <form>
+                    <label class="content_days" for="button"> Day 2. Variáveis</label><br>
+                    <input class="input" type="button" value="Click!" onclick="dayTwo()">
+
+                    <label class="content_days" for="button"> Day 3. Fluxo de decisão</label><br>
+                    <input class="input" type="button" value="Click!" onclick="dayThree()">
+
+                    <label class="content_days" for="button"> Day 4. Mais loops e randomização</label><br>
+                    <input class="input" type="button" value="Click!" onclick="dayFour()">
+
+                    <label class="content_days" for="button"> Day 5. Arrays e coleções</label><br>
+                    <input class="input" type="button" value="Click!" onclick="dayFive()">
+
+                    <label class="content_days" for="button"> Day 6. Remoção de arrays</label><br>
+                    <input class="input" type="button" value="Click!" onclick="daySix()">
+
+                    <label class="content_days" for="button"> Day 7. Funções em javaScript</label><br>
+                    <input class="input" type="button" value="Click!" onclick="daySeven()">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="page_footer">
+        Desenvolvido por Rhapha Morello. 
+    </footer>
+
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
