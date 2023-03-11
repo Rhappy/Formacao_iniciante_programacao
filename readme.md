@@ -40,7 +40,7 @@ Projeto referente aos 4 cursos de HTML da formação atual, ministrados por Pedr
 
 #### Projeto_HTML_2
 
-Projeto referente os 4 cursos de HTML reformulados, ministrados por Guilherme Lima e Rafaella Ballerini. Possui:
+Projeto referente aos 4 cursos de HTML reformulados, ministrados por Guilherme Lima e Rafaella Ballerini. Possui:
 - Uma pasta _assets_ contendo as imagens do projeto.
 - Uma pasta _styles_ contendo os arquivos style.css .
 - 2 arquivos .html: index.html (a página inicial) e about.html (página de informações).
